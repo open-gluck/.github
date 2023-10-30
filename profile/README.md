@@ -45,6 +45,14 @@ Below is a list of supported software:
 
 ## FAQ
 
+### Any creative use of OpenGlück?
+
+Sure, what about these ideas:
+- create a plug-in that turn on your smart lights when you're low at night;
+- upload all your readings to a Google sheet and make a plug-in that send you weekly reports about how you're doing;
+- most of us with a CGM have alerts when they experience a low or high, but what about alerts when back in the normal range? turns out we have a [plugin, `opengluck-webhooks-apns`](https://github.com/open-gluck/opengluck-webhook-apns) that does exactly that;
+- and, this list is not over!
+
 ### Why do you require enrolling on the Apple Developer Program for full widget/complication functionnality?
 
 Because it's the only way that truly works. 
@@ -52,3 +60,10 @@ Because it's the only way that truly works.
 Early versions of this software used a hack with a contact photo that was updated whenever the blood glucose change. That's cool but once in a while, the data wasn't being updated, and there was a serious risk of applying a wrong decision because data was simply not up to date. This is the same issue that appears with other software that use similar methods, such as the “calendar” app (though the Contacts app might be more elegant as it visually a circle that's available in more watch faces).
 
 If you're interested, the code for updating the contact photo is still present, feel free to dig with it. Personally I'm not confident it's worth the risk, but I'm always open for discussion.
+
+### Why don't you build up on NightScout/<other alternative>?
+
+OpenGlück is supposed to be a foundation, freeing you from whatever software and hardware you use.
+
+Think about it like an Apple TV: when you own one, you're not stuck to using the set-top-box of your internet provider. Which is good from a consumer standpoint perspective, you can change provider whenever you like and still, use the same friendly interface you're used to. And if your internet provider provides special features that you'll like, you're also free to use them in addition to your Apple TV.
+
