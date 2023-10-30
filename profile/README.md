@@ -57,11 +57,23 @@ Sure, what about these ideas:
 
 Because it's the only way that truly works. 
 
+If, for some reasons, you can't enroll or don't want to enroll, you can still use other features of OpenGlük. Sure, you'll miss real-time widgets and complications, but that's about it. If you need it, we have a complication with just an icon, that launches the app. It's an easy and convenient way to still be able to use OpenGlück, albeit one click away!
+
 Early versions of this software used a hack with a contact photo that was updated whenever the blood glucose change. That's cool but once in a while, the data wasn't being updated, and there was a serious risk of applying a wrong decision because data was simply not up to date. This is the same issue that appears with other software that use similar methods, such as the “calendar” app (though the Contacts app might be more elegant as it visually a circle that's available in more watch faces).
 
 If you're interested, the code for updating the contact photo is still present, feel free to dig with it. Personally I'm not confident it's worth the risk, but I'm always open for discussion.
 
-### Why don't you build up on NightScout/<other alternative>?
+### Do you need your iPhone to use the Apple Watch app?
+
+No, but your CGM or closed-loop system still might.
+
+But, if you have a cellular Apple Watch, and don't need your phone, you'll be good to go.
+
+### Does OpenGlück support “follower” mode?
+
+Sure, just share the same token (or create another user on the OpenGlück server).
+
+### Why didn't you build up on NightScout/<other alternative>?
 
 OpenGlück is supposed to be a foundation, freeing you from whatever software and hardware you use.
 
