@@ -5,18 +5,25 @@ build a riche ecosystem of apps and tools for diabetes users.
 
 ## Features
 
-- modern iOS app, with full support of iOS 17, Lock Screen widgets, Home Screen widgets;
-- full support of watchOS 10: you can use any watch face and see your blood glucose in real-time, and if you're lucky to have a Series 9 or Ultra 2, use the new double-tap gesture to instantly show a graph with your recent activity (recent blood glucose, basal insulin shots, snacks in response to lows).
+- modern iOS and iPadOS app, with full support of iOS 17, Lock Screen widgets, Home Screen widgets
+- full support of watchOS 10: you can use any watch face and see your blood glucose in real-time, and if you're lucky to have a Series 9 or Ultra 2, use the new double-tap gesture to instantly show a graph with your recent activity (recent blood glucose, basal insulin shots, snacks in response to lows);
+- provides a Catalyst app, for use in macOS, where you can have live widgets and explore recent data.
 
-### Apple Watch screenshots
+### Apple Watch
 
 ![image](https://github.com/open-gluck/.github/assets/66381046/00f71f7a-d6b5-491d-b175-c8c4f1f37009)
 
-### iPhone screenshots
+### iPhone
 
 The Lock and Home screens showing available widgets:
 
 ![image](https://github.com/open-gluck/.github/assets/66381046/3be96363-f8f6-4d5e-b452-73c0d9b02952)
+
+### iPad
+
+### Mac
+
+TODO
 
 ## Pre-Requisites
 
