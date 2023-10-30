@@ -79,3 +79,4 @@ OpenGlück is supposed to be a foundation, freeing you from whatever software an
 
 Think about it like an Apple TV: when you own one, you're not stuck to using the set-top-box of your internet provider. Which is good from a consumer standpoint perspective, you can change provider whenever you like and still, use the same friendly interface you're used to. And if your internet provider provides special features that you'll like, you're also free to use them in addition to your Apple TV.
 
+This means that, by design, the OpenGlück server will not have bells and whistles, and will rely on third-parties applications to provide all the features. Of course, if you have an iPhone/iPad/Mac/Apple Watch, you are encouraged to use our app but this is by no means necessary.
