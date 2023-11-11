@@ -71,7 +71,11 @@ But, if you have a cellular Apple Watch, and don't need your phone, you'll be go
 
 ### Does OpenGlück support “follower” mode?
 
-Sure, just share the same token (or create another user on the OpenGlück server).
+Sure, just share the same token.
+
+### Does OpenGlück support multiple users?
+
+Sure, each users get its own history data.
 
 ### Why didn't you build up on NightScout/<other alternative>?
 
