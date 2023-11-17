@@ -95,6 +95,25 @@ Once you are a registered developer, you can enable *Developer Mode* on your dev
 
 Once again, **this is not required to use OpenGlück**. If, for some reasons, you can't enroll or don't want to enroll, you can still use other features. Sure, your widgets and complications will refresh less often, but that's about it. Just click on them, this will launch the app, and your data will instantly refresh.
 
+#### Lift WidgetKit Restrictions (For Registered Developers)
+
+If you're a registered developer, you can lift WidgetKit restrictions like so.
+
+*Important: WidgetKit Developer Mode is enabled only for apps you build and install on your devices. It has no impacts on apps downloaded from the App Store or Test Flight.*
+
+#### Apple Watch
+
+Open **Settings**, then navigate to **Developer**. In the secret menu, check **WidgetKit Developer Mode**. 
+
+TODO
+
+
+#### iPhone, iPad
+
+Open **Settings**, then navigate to **Developer**. In the secret menu, check **WidgetKit Developer Mode**. 
+
+TODO
+
 #### The Calendar Trick (now deprecated)
 
 Early versions of this software used a hack with a contact photo that was updated whenever the blood glucose change. That's cool but once in a while, the data wasn't being updated, and there was a serious risk of applying a wrong decision because data was simply not up to date. This is the same issue that appears with other software that use similar methods, such as the “calendar” app (though the Contacts app might be more elegant as it visually a circle that's available in more watch faces).
