@@ -5,33 +5,59 @@ build a riche ecosystem of apps and tools for diabetes users.
 
 ## Features
 
-- modern iOS and iPadOS app, with full support of iOS 17, Lock Screen widgets, Home Screen widgets
-- full support of watchOS 10: you can use any watch face and see your blood glucose in real-time, and if you're lucky to have a Series 9 or Ultra 2, use the new double-tap gesture to instantly show a graph with your recent activity (recent blood glucose, basal insulin shots, snacks in response to lows);
-- provides a Catalyst app, for use in macOS, where you can have live widgets and explore recent data.
+- **modern apps for all platforms**: iOS, watchOS, iPadOS, macOS, tvOS — no more more hunting for your phone to know your blood glucose, a quick glance and you know;
+- **supports all widgets and complications** — and we support StandBy mode;
+- if you care for someone with diabetes, you can easily see their results — as many users as required can share the same server.
 
-### Apple Watch
+### OpenGlück IS:
+
+- **OpenGlück is a foundation**, a building layer upon which other software can be plugged. Think of it like a digital journal where you choose to log what's relevant for you;
+- **OpenGlück is open**, so you have freedom over how and when you handle your workflow.
+
+### OpenGlück IS NOT:
+
+- OpenGlück is NOT a medical device, a CGM or a closed-loop system, or anything like this. 
+- If you're using a CGM, you need to continue using a dedicated app to read your blood glucose. If you're using a closed-loop system, you need to continue using it. And, you can use OpenGlück on top of it.
+
+# Apple Watch
+
+## Complications
+
+All complications for watchOS 10 are supported.
+
 
 ![image](https://github.com/open-gluck/.github/assets/66381046/00f71f7a-d6b5-491d-b175-c8c4f1f37009)
 
-### iPhone
+And, if you have a Series 9 or Ultra 2, you can use the *double tap* gesture. I have mine configured so that a *single double tap* shows the graph, and a *second double tap* opens the app. Very handy!
 
-The Lock and Home screens showing available widgets:
+# iPhone
+
+## Lock Screen and Home Screens Widgets
+
+All widgets for iOS 17 are supported.
 
 ![image](https://github.com/open-gluck/.github/assets/66381046/3be96363-f8f6-4d5e-b452-73c0d9b02952)
 
-### iPad
+# iPad
 
-### Mac
+All widgets for iPadOS 17 are supported.
 
 TODO
 
-## Pre-Requisites
+# macOS
 
-In order to have OpenGlück work on your iPhone or Apple Watch, you need to set up a few things first:
+TODO
+
+# tvOS
+
+TODO
+
+# Pre-Requisites
+
+In order to have OpenGlück work on your iPhone, Apple Watch, iPad, Mac, or TV, you need to set up a few things first:
 
 - the [OpenGlück server](https://github.com/open-gluck/opengluck-server) on a machine that's always on, and ready to accept HTTPS connections (you can use a cheap cloud instance, or a computer at home that's never turned off);
 - use an app that's compatible with OpenGlück (see a list below);
-- for complications and widgets to actually refresh, you need to enroll in the [Apple Developer Program](https://developer.apple.com/programs/) — this is important so that you can lift restrictions concerning how often WidgetKit widgets are refreshed.
 
 ## Compatible Apps
 
@@ -53,11 +79,23 @@ Sure, what about these ideas:
 - most of us with a CGM have alerts when they experience a low or high, but what about alerts when back in the normal range? turns out we have a [plugin, `opengluck-webhooks-apns`](https://github.com/open-gluck/opengluck-webhook-apns) that does exactly that;
 - and, this list is not over!
 
-### Why do you require enrolling on the Apple Developer Program for full widget/complication functionnality?
+### How can widgets be refreshed more than a few dozens time per day?
 
-Because it's the only way that truly works. 
+Apple has a restriction on the number of times widgets can be refreshed every day. This restriction is based on several factors, such as the number of times you interact with a widget. 
 
-If, for some reasons, you can't enroll or don't want to enroll, you can still use other features of OpenGlük. Sure, you'll miss real-time widgets and complications, but that's about it. If you need it, we have a complication with just an icon, that launches the app. It's an easy and convenient way to still be able to use OpenGlück, albeit one click away!
+Unfortunately, this restriction is not developer- or user-configurable, which means we don't have a way to raise this limit higher to suit our needs — and neither do you have a way.
+
+While this is done on purpose to help keep battery usage low, our findings is that battery footprint is actually quite minimal — this is because we're very cautious about performing minimal work. Somehow, we understand Apple enforces a limit, because it would be quite easy for developers to drain battery life, and users would blame Apple, though we believe there should be a way for some apps to have their restrictions lifted — maybe watchOS could monitor battery usage and report abnormal consumption to you, so that you could make informed decisions. But, alas, we're not there yet. Feel free to reach out to Tim Cook, Apple's current CEO: he is known to read his mails and sometimes responds. His email is tcook@apple.com.
+
+In the meantime, **if you're really interested in refreshing your widgets and complications data more often, there is a way.** By default, we restrict to once every 30 minutes at most, but **you can ask for a refresh every 2 minutes** (which in practice turns out to be once every 10 minutes, which is more than okay for what we use the widgets and complications for).
+
+To do so, you need to enroll in the [Apple Developer Program](https://developer.apple.com/programs/), compile the app yourself, and install it on your device.
+
+Once you are a registered developer, you can enable *Developer Mode* on your device, which gives you access to a secret menu, where you can lift restrictions concerning how often WidgetKit widgets are refreshed.
+
+Once again, **this is not required to use OpenGlück**. If, for some reasons, you can't enroll or don't want to enroll, you can still use other features. Sure, your widgets and complications will refresh less often, but that's about it. Just click on them, this will launch the app, and your data will instantly refresh.
+
+#### The Calendar Trick (now deprecated)
 
 Early versions of this software used a hack with a contact photo that was updated whenever the blood glucose change. That's cool but once in a while, the data wasn't being updated, and there was a serious risk of applying a wrong decision because data was simply not up to date. This is the same issue that appears with other software that use similar methods, such as the “calendar” app (though the Contacts app might be more elegant as it visually a circle that's available in more watch faces).
 
