@@ -105,14 +105,13 @@ If you're a registered developer, you can lift WidgetKit restrictions like so.
 
 Open **Settings**, then navigate to **Developer**. In the secret menu, check **WidgetKit Developer Mode**. 
 
-TODO
-
+![Friday, 17 Nov 2023 16:51:54](https://github.com/open-gluck/.github/assets/66381046/48170ad1-63e1-4d0b-a0d8-aa66905114bd)
 
 #### iPhone, iPad
 
 Open **Settings**, then navigate to **Developer**. In the secret menu, check **WidgetKit Developer Mode**. 
 
-TODO
+![Friday, 17 Nov 2023 16:53:33](https://github.com/open-gluck/.github/assets/66381046/d2e180cf-2ded-4693-ad51-0d1df6061e8f)
 
 #### The Calendar Trick (now deprecated)
 
