@@ -89,7 +89,7 @@ The blood glucose graph shows historic data as a straight line. More recent data
 
 The last historic data is shown with a trend arrow, that has the same slope as the graph.
 
-![Alt text](legend.png)
+![Legend](legend.png)
 
 Current blood glucose data is shown with a a colored background, that instantly shows if you're in a low/high. You can configure the thresholds in the settings.
 
