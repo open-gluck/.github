@@ -134,7 +134,7 @@ Early versions of this software used a hack with a contact photo that was update
 
 If you're interested, the code for updating the contact photo is still present, feel free to dig with it. Personally I'm not confident it's worth the risk, but I'm always open for discussion.
 
-# Do you need your iPhone to use the Apple Watch app?
+## Do you need your iPhone to use the Apple Watch app?
 
 No, but your CGM or closed-loop system still might.
 
@@ -147,6 +147,10 @@ Sure, just share the same token.
 ## Does OpenGlück support multiple users?
 
 Sure, each users get its own journal. If you're sharing the same server with two diabetics or more, this is the way to go. Each user will get a token that will show their data only.
+
+## I'm using mmol/L.
+
+Sure, visit the settings, you can choose how to display your measurements.
 
 ## Why didn't you build up on NightScout/other alternative?
 
