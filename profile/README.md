@@ -1,9 +1,15 @@
 # OpenGlück
 
-![Overview](overview.png)
-
 The OpenGlück project is a collection of free software that can be used to help
 build a riche ecosystem of apps and tools for diabetes users.
+
+To run OpenGlück, you need a server, and apps to upload and download data. 
+
+![Ecosystem](ecosystem.png)
+
+We suggest you use you own OpenGlück app to have rich widgets, complications, and apps:
+
+![Overview](overview.png)
 
 ## Features
 
