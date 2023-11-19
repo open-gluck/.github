@@ -45,7 +45,7 @@ The native Mac app means you don't have to reach out for your phone to know your
 
 # tvOS
 
-Well, tvOS started more as a joke than anything else. Please let me know if you have a use for it, though, I'd be more than happy to read about it.
+Well, tvOS started more as a joke than anything else. Please let me know if you have serious uses for it, though, I'd be more than happy to read about it.
 
 ![tvOS](tv.png)
 
@@ -58,15 +58,17 @@ In order to have OpenGlück work on your iPhone, Apple Watch, iPad, Mac, or TV, 
 
 ## Compatible Apps
 
-The [OpenGlück server](https://github.com/open-gluck/opengluck-server) is a small piece of software, that's agnostic of which CGM, blood glucose reader, closed loop system or any of your hardware. Instead, if relies on two things:
+*Stars indicates full support of OpenGlück.*
+
+The ⭐️ [OpenGlück server](https://github.com/open-gluck/opengluck-server) is a small piece of software, that's agnostic of which CGM, blood glucose reader, closed loop system or any of your hardware. Instead, if relies on two things:
 - its exhaustive API to import and retrieve data;
 - its convenient webhooks feature to support for plug-ins to react when things happen (like a new reading, a new insulin shot is recorded, etc.)
 
-Below is a list of supported software:
+Below is a list of supported software. 
 
-- [our own OpenGlück app](https://github.com/open-gluck/opengluck-ios) to provide readings, graphs, widgets and complications (supports iOS 17, watchOS 10, macOS Sonoma, or above);
+- ⭐️ [our own OpenGlück app](https://github.com/open-gluck/opengluck-ios) to provide readings, graphs, widgets and complications (supports iOS 17, watchOS 10, macOS Sonoma, or above);
 
-- [xDrip4iOS](https://xdrip4ios.readthedocs.io/en/latest/) is supported with the following pull request that you need to apply.
+- ⭐️ [xDrip4iOS](https://xdrip4ios.readthedocs.io/en/latest/) is supported with the following pull request that you need to apply.
 
 # FAQ
 
