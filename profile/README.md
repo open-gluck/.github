@@ -31,27 +31,23 @@ All complications for watchOS 10 are supported.
 
 And, if you have a Series 9 or Ultra 2, you can use the *double tap* gesture. I have mine configured so that a *single double tap* shows the graph, and a *second double tap* opens the app. Very handy!
 
-# iPhone
+# iPhone / iPad
 
-## Lock Screen and Home Screens Widgets
+The OpenGlück app supports all widgets, including Standby.
 
-All widgets for iOS 17 are supported.
-
-![image](https://github.com/open-gluck/.github/assets/66381046/3be96363-f8f6-4d5e-b452-73c0d9b02952)
-
-# iPad
-
-All widgets for iPadOS 17 are supported.
-
-TODO
+![iPhone](iphone.png)
 
 # macOS
 
-TODO
+The native Mac app means you don't have to reach out for your phone to know your blood glucose.
+
+![macOS](mac.png)
 
 # tvOS
 
-TODO
+Well, tvOS started more as a joke than anything else. Please let me know if you have a use for it, though, I'd be more than happy to read about it.
+
+![tvOS](tv.png)
 
 # Pre-Requisites
 
