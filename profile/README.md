@@ -27,8 +27,7 @@ build a riche ecosystem of apps and tools for diabetes users.
 
 All complications for watchOS 10 are supported.
 
-
-![image](https://github.com/open-gluck/.github/assets/66381046/00f71f7a-d6b5-491d-b175-c8c4f1f37009)
+![watchOS](watch.png)
 
 And, if you have a Series 9 or Ultra 2, you can use the *double tap* gesture. I have mine configured so that a *single double tap* shows the graph, and a *second double tap* opens the app. Very handy!
 
