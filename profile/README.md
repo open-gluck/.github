@@ -83,6 +83,18 @@ Sure, what about these ideas:
 - most of us with a CGM have alerts when they experience a low or high, but what about alerts when back in the normal range? turns out we have a [plugin, `opengluck-webhooks-apns`](https://github.com/open-gluck/opengluck-webhook-apns) that does exactly that;
 - and, this list is not over!
 
+## What info does the Home screen show? What's with the round circle around the blood glucose, and why do some points show as crosses?
+
+The blood glucose graph shows historic data as a straight line. More recent data is shown as crossed: this let you see at first sight how your CGM is currently trending. Typically, this data will get corrected, as most readers use to apply a *smoothing* algorithm to even out short spikes and other reading errors.
+
+The last historic data is shown with a trend arrow, that has the same slope as the graph.
+
+![Alt text](legend.png)
+
+Current blood glucose data is shown with a a colored background, that instantly shows if you're in a low/high. You can configure the thresholds in the settings.
+
+A circle around the measurement shows how fresh the result is. This circle will slowly decrease up until it reaches 10 minutes, at which point it will consider the data no longer to be up to date. This is important as it will prevent you from misinterpreting an old result.
+
 ## How can widgets be refreshed more than a few dozens time per day?
 
 Apple has a restriction on the number of times widgets can be refreshed every day. This restriction is based on several factors, such as the number of times you interact with a widget. 
