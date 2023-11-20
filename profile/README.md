@@ -5,7 +5,7 @@ build a riche ecosystem of apps and tools for diabetes users.
 
 ![Ecosystem](ecosystem.png)
 
-To run OpenGlück, you need a server, and apps to upload and download data.
+To run OpenGlück, you need a server, and apps to upload and download data. We suggest you install [our own app](https://github.com/open-gluck/opengluck-ios), that runs on iPhone, Apple Watch, iPad, macOS, and tvOS.
 
 ## Features
 
@@ -25,23 +25,27 @@ To run OpenGlück, you need a server, and apps to upload and download data.
 
 # Apple Watch
 
+These screenshots showcase [our own app](https://github.com/open-gluck/opengluck-ios).
+
 ## Complications
 
-All complications for watchOS 10 are supported.
+All complications sizes for watchOS 10 are supported.
 
 ![watchOS](watch.png)
 
 And, if you have a Series 9 or Ultra 2, you can use the *double tap* gesture. I have mine configured so that a *single double tap* shows the graph, and a *second double tap* opens the app. Very handy!
 
+(Remember that we're subject to the same limitation than all Apple Watch widgets. See the FAQ item below for a more detailed explanation.)
+
 # iPhone / iPad
 
-The OpenGlück app supports all widgets, including Standby.
+The [OpenGlück app](https://github.com/open-gluck/opengluck-ios) supports all widgets sizes, including Standby — if you are lucky and have an iPhone with Always-On, this makes a great nighttime BG reader.
 
 ![iPhone](iphone.png)
 
 # macOS
 
-The native Mac app means you don't have to reach out for your phone to know your blood glucose.
+The [native Mac app](https://github.com/open-gluck/opengluck-ios) means you don't have to reach out for your phone to know your blood glucose.
 
 ![macOS](mac.png)
 
