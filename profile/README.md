@@ -13,7 +13,6 @@ Here is a [YouTube video showing how OpenGlück looks](https://www.youtube.com/w
 
 [<img width="256" alt="image" src="https://github.com/open-gluck/.github/assets/66381046/d5b415da-f4db-4946-9949-23b04b8b546f">](https://www.youtube.com/watch?v=1x_gM2B7ZmE)
 
-
 ## Features
 
 - **modern apps for all platforms**: iOS, watchOS, iPadOS, macOS, tvOS — no more more hunting for your phone to know your blood glucose, a quick glance and you know;
