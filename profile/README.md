@@ -17,12 +17,14 @@ Here is a [YouTube video showing how OpenGlück looks](https://www.youtube.com/w
 
 - **modern apps for all platforms**: iOS, watchOS, iPadOS, macOS, tvOS — no more more hunting for your phone to know your blood glucose, a quick glance and you know;
 - **supports all widgets and complications** — and we support StandBy mode;
-- if you care for someone with diabetes, you can easily see their results — as many users as required can share the same server.
+- if you care for someone else, **follower mode** is supported right out of the box,
+- last, but maybe not least, **we love to have a nice UI/UX** for user-facing projects. The server? not something you'll see everyday. The app? Make it look right. Our motto: *Your diabetes might not be pretty every day, but if your app is, at least that's something.*
 
 ### OpenGlück IS:
 
 - **OpenGlück is a foundation**, a building layer upon which other software can be plugged. Think of it like a digital journal where you choose to log what's relevant for you;
 - **OpenGlück is open**, so you have freedom over how and when you handle your workflow.
+- **OpenGlück is early work**. I started the project as hoppy of mine, if it can be useful to others, great! Let me hear your stories, and of course, your help is welcome, feel free to participate.
 
 ### OpenGlück IS NOT:
 
@@ -80,7 +82,7 @@ Below is a list of supported software.
 
 - ⭐️ [our own OpenGlück app](https://github.com/open-gluck/opengluck-ios) to provide readings, graphs, widgets and complications (supports iOS 17, watchOS 10, macOS Sonoma, or above);
 
-- ⭐️ [xDrip4iOS](https://xdrip4ios.readthedocs.io/en/latest/) is supported with the following pull request that you need to apply.
+- ⭐️ [xDrip4iOS](https://xdrip4ios.readthedocs.io/en/latest/) is supported with the following pull request that you need to apply (we've reached out to the project's team to have it merged).
 
 # FAQ
 
