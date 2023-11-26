@@ -47,7 +47,7 @@ And, if you have a Series 9 or Ultra 2, you can use the *double tap* gesture. I 
 
 # iPhone / iPad
 
-The [OpenGlück app](https://github.com/open-gluck/opengluck-ios) supports all widgets sizes, including Standby — if you are lucky and have an iPhone with Always-On, this makes a great nighttime BG reader.
+The [OpenGlück app](https://github.com/open-gluck/opengluck-ios) supports all widgets sizes of iOS 17, including Standby — if you are lucky and have an iPhone with Always-On, this makes a great nighttime BG reader.
 
 ![iPhone](iphone.png)
 
