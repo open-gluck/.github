@@ -7,6 +7,13 @@ build a riche ecosystem of apps and tools for diabetes users.
 
 To run OpenGlück, you need a server, and apps to upload and download data. We suggest you install [our own app](https://github.com/open-gluck/opengluck-ios), that runs on iPhone, Apple Watch, iPad, macOS, and tvOS.
 
+## A Quick video tour
+
+Here is a [YouTube video showing how OpenGlück looks](https://www.youtube.com/watch?v=1x_gM2B7ZmE), on iPhone and Apple Watch:
+
+[<img width="256" alt="image" src="https://github.com/open-gluck/.github/assets/66381046/d5b415da-f4db-4946-9949-23b04b8b546f">](https://www.youtube.com/watch?v=1x_gM2B7ZmE)
+
+
 ## Features
 
 - **modern apps for all platforms**: iOS, watchOS, iPadOS, macOS, tvOS — no more more hunting for your phone to know your blood glucose, a quick glance and you know;
