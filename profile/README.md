@@ -43,7 +43,7 @@ All complications sizes for watchOS 10 are supported.
 
 And, if you have a Series 9 or Ultra 2, you can use the *double tap* gesture. I have mine configured so that a *single double tap* shows the graph, and a *second double tap* opens the app. Very handy!
 
-(Remember that we're subject to the same limitation than all Apple Watch widgets. See the FAQ item below for a more detailed explanation.)
+(Remember that we're subject to the same limitation than all Apple Watch widgets. If you're not running a version of the app that you've compiled yourself, we support a workaround with the **Contact Trick**, see the FAQ item below.)
 
 # iPhone / iPad
 
@@ -110,9 +110,19 @@ A circle around the measurement shows how fresh the result is. This circle will 
 
 Apple has a restriction on the number of times widgets can be refreshed every day. This restriction is based on several factors, such as the number of times you interact with a widget. 
 
-Unfortunately, this restriction is not developer- or user-configurable, which means we don't have a way to raise this limit higher to suit our needs — and neither do you have a way.
+Unfortunately, this restriction is not developer- or user-configurable, which means we don't have a way to raise this limit higher to suit our needs — and neither do you have a way. 
 
-While this is done on purpose to help keep battery usage low, our findings is that battery footprint is actually quite minimal — this is because we're very cautious about performing minimal work. Somehow, we understand Apple enforces a limit, because it would be quite easy for developers to drain battery life, and users would blame Apple, though we believe there should be a way for some apps to have their restrictions lifted — maybe watchOS could monitor battery usage and report abnormal consumption to you, so that you could make informed decisions. But, alas, we're not there yet. Feel free to reach out to Tim Cook, Apple's current CEO: he is known to read his mails and sometimes responds. His email is tcook@apple.com.
+But we do have something in our sleeve: the **Calendar Trick**. If you're not enrolled in the developer program, you can use this trick to update the photo or a contact with your blood glucose. See the next question for details.
+
+### The Calendar Trick
+
+You can enable the **Calendar Trick** in the **More** tab. When enabled, the app will search for a contact whose email is `bg@calendar-trick.opengluck.com`, and will update its photo with the latest known blood glucose.
+
+*IMPORTANT: the update process may fail, or stop, for whatever reasons, and there could be issues with the iCloud sync internally used by Apple's Contacts app. Be advised the Calendar Trick may fail to give real-time readings — you might only get the latest available result, which could lag several minutes, hours, or even days. (Some other apps use a similar Calendar trick, with similar caveats.)*
+
+### Disable WidgetKit Limits (Developers Only)
+
+While Apple's limits are done on purpose to help keep battery usage low, our findings is that battery footprint is actually quite minimal — this is because we're very cautious about performing minimal work. Somehow, we understand Apple enforces a limit, because it would be quite easy for developers to drain battery life, and users would blame Apple, though we believe there should be a way for some apps to have their restrictions lifted — maybe watchOS could monitor battery usage and report abnormal consumption to you, so that you could make informed decisions. But, alas, we're not there yet. Feel free to reach out to Tim Cook, Apple's current CEO: he is known to read his mails and sometimes responds. His email is tcook@apple.com.
 
 In the meantime, **if you're really interested in refreshing your widgets and complications data more often, there is a way.** By default, we restrict to once every 30 minutes at most, but **you can ask for a refresh every 2 minutes** (which in practice turns out to be once every 10 minutes, which is more than okay for what we use the widgets and complications for).
 
@@ -121,8 +131,6 @@ To do so, you need to enroll in the [Apple Developer Program](https://developer.
 Once you are a registered developer, you can enable *Developer Mode* on your device, which gives you access to a secret menu, where you can lift restrictions concerning how often WidgetKit widgets are refreshed.
 
 Once again, **this is not required to use OpenGlück**. If, for some reasons, you can't enroll or don't want to enroll, you can still use other features. Sure, your widgets and complications will refresh less often, but that's about it. Just click on them, this will launch the app, and your data will instantly refresh.
-
-### Lift WidgetKit Restrictions (For Registered Developers)
 
 If you're a registered developer, you can lift WidgetKit restrictions like so.
 
@@ -139,12 +147,6 @@ Open **Settings**, then navigate to **Developer**. In the secret menu, check **W
 Open **Settings**, then navigate to **Developer**. In the secret menu, check **WidgetKit Developer Mode**. 
 
 ![Friday, 17 Nov 2023 16:53:33](https://github.com/open-gluck/.github/assets/66381046/d2e180cf-2ded-4693-ad51-0d1df6061e8f)
-
-### The Calendar Trick (now deprecated)
-
-Early versions of this software used a hack with a contact photo that was updated whenever the blood glucose change. That's cool but once in a while, the data wasn't being updated, and there was a serious risk of applying a wrong decision because data was simply not up to date. This is the same issue that appears with other software that use similar methods, such as the “calendar” app (though the Contacts app might be more elegant as it visually a circle that's available in more watch faces).
-
-If you're interested, the code for updating the contact photo is still present, feel free to dig with it. Personally I'm not confident it's worth the risk, but I'm always open for discussion.
 
 ## Do you need your iPhone to use the Apple Watch app?
 
