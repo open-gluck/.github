@@ -5,7 +5,7 @@ build a riche ecosystem of apps and tools for diabetes users.
 
 ![Ecosystem](ecosystem.png)
 
-To run OpenGlück, you need a server, and apps to upload and download data. We suggest you install [our own app](https://github.com/open-gluck/opengluck-ios), that runs on iPhone, Apple Watch, iPad, macOS, and tvOS.
+To run OpenGlück, you need a server, and apps to upload and download data. We suggest you install [our own app](https://github.com/open-gluck/opengluck-swift-app), that runs on iPhone, Apple Watch, iPad, macOS, and tvOS.
 
 ## A Quick video tour
 
@@ -33,7 +33,7 @@ Here is a [YouTube video showing how OpenGlück looks](https://www.youtube.com/w
 
 # Apple Watch
 
-These screenshots showcase [our own app](https://github.com/open-gluck/opengluck-ios).
+These screenshots showcase [our own app](https://github.com/open-gluck/opengluck-swift-app).
 
 ## Complications
 
@@ -47,13 +47,13 @@ And, if you have a Series 9 or Ultra 2, you can use the *double tap* gesture. I 
 
 # iPhone / iPad
 
-The [OpenGlück app](https://github.com/open-gluck/opengluck-ios) supports all widgets sizes of iOS 17, including Standby — if you are lucky and have an iPhone with Always-On, this makes a great nighttime BG reader.
+The [OpenGlück app](https://github.com/open-gluck/opengluck-swift-app) supports all widgets sizes of iOS 17, including Standby — if you are lucky and have an iPhone with Always-On, this makes a great nighttime BG reader.
 
 ![iPhone](iphone.png)
 
 # macOS
 
-The [native Mac app](https://github.com/open-gluck/opengluck-ios) means you don't have to reach out for your phone to know your blood glucose.
+The [native Mac app](https://github.com/open-gluck/opengluck-swift-app) means you don't have to reach out for your phone to know your blood glucose.
 
 ![macOS](mac.png)
 
@@ -68,7 +68,7 @@ Well, tvOS started more as a joke than anything else. Please let me know if you 
 In order to have OpenGlück work on your iPhone, Apple Watch, iPad, Mac, or TV, you need to set up a few things first:
 
 - the [OpenGlück server](https://github.com/open-gluck/opengluck-server) on a machine that's always on, and ready to accept HTTPS connections (you can use a cheap cloud instance, or a computer at home that's never turned off);
-- use an app that's compatible with OpenGlück (see a list below). You can use [our own app](https://github.com/open-gluck/opengluck-ios) — that's how you'll get the widgets and complications shown above. But you can also use any other apps compatible with OpenGlück.
+- use an app that's compatible with OpenGlück (see a list below). You can use [our own app](https://github.com/open-gluck/opengluck-swift-app) — that's how you'll get the widgets and complications shown above. But you can also use any other apps compatible with OpenGlück.
 
 ## Compatible Apps
 
@@ -80,7 +80,7 @@ The ⭐️ [OpenGlück server](https://github.com/open-gluck/opengluck-server) i
 
 Below is a list of supported software. 
 
-- ⭐️ [our own OpenGlück app](https://github.com/open-gluck/opengluck-ios) to provide readings, graphs, widgets and complications (supports iOS 17, watchOS 10, macOS Sonoma, or above);
+- ⭐️ [our own OpenGlück app](https://github.com/open-gluck/opengluck-swift-app) to provide readings, graphs, widgets and complications (supports iOS 17, watchOS 10, macOS Sonoma, or above);
 
 - ⭐️ [xDrip4iOS](https://xdrip4ios.readthedocs.io/en/latest/) is supported with the following pull request that you need to apply (we've reached out to the project's team to have it merged).
 
