@@ -116,7 +116,16 @@ But we do have something in our sleeve: the **Calendar Trick**. If you're not en
 
 ### The Calendar Trick
 
-You can enable the **Calendar Trick** in the **More** tab. When enabled, the app will search for a contact whose email is `bg@calendar-trick.opengluck.com`, and will update its photo with the latest known blood glucose.
+You can enable the **Calendar Trick** in the **More** tab. When enabled, the app will search for a contact and update its photo with the latest known blood glucose.
+
+To enable the Calendar Trick:
+
+1. Create a contact, set its email address to `bg@calendar-trick.opengluck.com`
+1. Launch the OpenGlück app, in the **More** tab, click **Enable Calendar Trick**.
+1. On your watch, update any of your circular complications to a **Contact complication**, and choose the contact you created in step 1.
+1. You're all set! OpenGlück will update the contact, and Apple Watch will automatically sync the complication to the contact's current photo.
+
+![Calendar Trick](calendar-trick.png)
 
 *IMPORTANT: the update process may fail, or stop, for whatever reasons, and there could be issues with the iCloud sync internally used by Apple's Contacts app. Be advised the Calendar Trick may fail to give real-time readings — you might only get the latest available result, which could lag several minutes, hours, or even days. (Some other apps use a similar Calendar trick, with similar caveats.)*
 
