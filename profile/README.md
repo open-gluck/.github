@@ -1,11 +1,12 @@
 # OpenGlück
 
-The OpenGlück project is a collection of free software that can be used to help
-build a riche ecosystem of apps and tools for diabetes users.
+The OpenGlück project is a collection of free software to help diabetes users get better feedback, regardless of the brand of the hardware they're using. 
+
+It comes with an app for iPhone, Apple Watch, macOS (and more) that's fully packed with widgets and complications.
 
 ![Ecosystem](ecosystem.png)
 
-To run OpenGlück, you need a server, and apps to upload and download data. We suggest you install [our own app](https://github.com/open-gluck/opengluck-swift-app), that runs on iPhone, Apple Watch, iPad, macOS, and tvOS.
+To run OpenGlück, you need a server, and apps to upload and download data. We also suggest you install [our own app](https://github.com/open-gluck/opengluck-swift-app), that is compatible with iPhone, watchOS, macOS and tvOS.
 
 ## A Quick video tour
 
@@ -16,9 +17,9 @@ Here is a [YouTube video showing how OpenGlück looks](https://www.youtube.com/w
 ## Features
 
 - **modern apps for all platforms**: iOS, watchOS, iPadOS, macOS, tvOS — no more more hunting for your phone to know your blood glucose, a quick glance and you know;
-- **supports all widgets and complications** — and we support StandBy mode;
+- **supports all widgets sizes and complications layouts** — including StandBy mode;
 - if you care for someone else, **follower mode** is supported right out of the box,
-- last, but maybe not least, **we love to have a nice UI/UX** for user-facing projects. The server? not something you'll see everyday. The app? Make it look right. Our motto: *Your diabetes might not be pretty every day, but if your app is, at least that's something.*
+- last, but maybe not least, **we love to have a nice UI/UX** for user-facing projects. The server? not something you'll see everyday. The app? Make it look right. Our motto: *Your diabetes might not be pretty every day, but if your app is. At least that's something.*
 
 ### OpenGlück IS:
 
@@ -41,13 +42,13 @@ All complications sizes for watchOS 10 are supported.
 
 ![watchOS](watch.png)
 
-And, if you have a Series 9 or Ultra 2, you can use the *double tap* gesture. I have mine configured so that a *single double tap* shows the graph, and a *second double tap* opens the app. Very handy!
+If you have a Series 9 or Ultra 2, you can use the *double tap* gesture. I have mine configured so that a *single double tap* shows the graph, and a *second double tap* opens the app. Very handy!
 
-(Remember that we're subject to the same limitation than all Apple Watch widgets. If you're not running a version of the app that you've compiled yourself, we support a workaround with the **Contact Trick**, see the FAQ item below.)
+(Remember that we're subject to the same limitation than all Apple Watch widgets. If you're not running a version of the app that you've compiled yourself, we support a workaround with the **Contact Trick**, see the FAQ item below. Also, opening the app always show live data. Double tap to the rescue!)
 
 # iPhone / iPad
 
-The [OpenGlück app](https://github.com/open-gluck/opengluck-swift-app) supports all widgets sizes of iOS 17, including Standby — if you are lucky and have an iPhone with Always-On, this makes a great nighttime BG reader.
+The [OpenGlück app](https://github.com/open-gluck/opengluck-swift-app) supports all widgets sizes of iOS 17, including Standby Mode — if you are lucky and have an iPhone with Always-On, this makes a great nighttime BG reader.
 
 ![iPhone](iphone.png)
 
@@ -96,7 +97,7 @@ Sure, what about these ideas:
 
 ## What info does the Home screen show? What's with the round circle around the blood glucose, and why do some points show as crosses?
 
-The blood glucose graph shows historic data as a straight line. More recent data is shown as crossed: this let you see at first sight how your CGM is currently trending. Typically, this data will get corrected, as most readers use to apply a *smoothing* algorithm to even out short spikes and other reading errors.
+The blood glucose graph shows historic data as a straight line. The most recent data is shown as *crossed*: this let you see at first sight how your CGM is currently trending. Typically, this data is less reliable, and will get corrected as your sensor collects more data: most readers use to apply a *smoothing* algorithm to even out short spikes and other reading errors.
 
 The last historic data is shown with a trend arrow, that has the same slope as the graph.
 
@@ -127,7 +128,7 @@ To enable the Calendar Trick:
 
 ![Calendar Trick](calendar-trick.png)
 
-*IMPORTANT: the update process may fail, or stop, for whatever reasons, and there could be issues with the iCloud sync internally used by Apple's Contacts app. Be advised the Calendar Trick may fail to give real-time readings — you might only get the latest available result, which could lag several minutes, hours, or even days. (Some other apps use a similar Calendar trick, with similar caveats.)*
+*IMPORTANT: the update process may fail, or stop, for whatever reasons, and there could be issues with the iCloud sync internally used by Apple's Contacts app. While most of the time, Calendar Trick provides for near real-time updates, be advised the there are times it might lag behind, and show you an outdated value — you might only get the latest available result, which could lag several minutes, hours, or even days. The app has a counter-measure to show the value in gray after some times passes, but unfortunately that is no fail-proof. (Some other apps use a similar trick known as the *Calendar trick*, with similar caveats.)*
 
 ### Disable WidgetKit Limits (Developers Only)
 
@@ -173,10 +174,10 @@ Sure, each users get its own journal. If you're sharing the same server with two
 
 ## I'm using mmol/L.
 
-Sure, visit the settings, you can choose how to display your measurements.
+Sure, visit the settings, you can change the unit there.
 
 ## Why didn't you build up on NightScout/other alternative?
 
-**OpenGlück is a foundation**, freeing you from whatever software and hardware you use. It's open and we encourage anyone, with an interest in making life easier for diabetes users, to contribute.
+**OpenGlück is a foundation**, freeing you from whatever software and hardware you use. It's open and we encourage anyone, with an interest in making life easier for diabetes users, to contribute. As it's not tied to a specific hardware, it will be able to evolve as new devices are available.
 
 Think about it like an Apple TV: when you own one, you're no longer stuck to using the set-top-box of your internet provider. This is good for you, as consumer: you can change provider whenever you like and still, use the same friendly interface you're used to. And if your internet provider provides special features that you'll like, you're also free to use them, in addition to your Apple TV. That's freedom, you can choose to go your own path, when you decide.
