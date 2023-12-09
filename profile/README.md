@@ -65,12 +65,13 @@ Well, tvOS started more as a joke than anything else. Please let me know if you 
 
 ![tvOS](https://github.com/open-gluck/.github/assets/66381046/68d16dbb-9a45-4ff8-be7b-51863af47689)
 
-# Pre-Requisites
+# Installation
 
-In order to have OpenGlück work on your iPhone, Apple Watch, iPad, Mac, or TV, you need to set up a few things first:
+In order to use OpenGlück work on your iPhone, Apple Watch, iPad, Mac, or TV, you need to set up a few things:
 
-- the [OpenGlück server](https://github.com/open-gluck/opengluck-server) on a machine that's always on, and ready to accept HTTPS connections (you can use a cheap cloud instance, or a computer at home that's never turned off);
-- use an app that's compatible with OpenGlück (see a list below). You can use [our own app](https://github.com/open-gluck/opengluck-swift-app) — that's how you'll get the widgets and complications shown above. But you can also use any other apps compatible with OpenGlück.
+1. install the [OpenGlück server](https://github.com/open-gluck/opengluck-server) on a machine that's always on, and ready to accept HTTPS connections (you can use a cheap cloud instance, or a computer at home that's never turned off);
+2. install our app [our own app](https://github.com/open-gluck/opengluck-swift-app) — that's how you'll get the widgets and complications shown above. (but you can also use any other apps compatible with OpenGlück)
+3. use an app that's compatible with OpenGlück (see a list below) to upload data from your devices.
 
 ## Compatible Apps
 
