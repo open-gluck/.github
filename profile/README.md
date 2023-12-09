@@ -4,7 +4,7 @@ The OpenGlück project is a collection of free software to help diabetics get a 
 
 It comes with its own app for iPhone, Apple Watch, macOS (and more) that's fully packed with widgets and complications, and any app can add support.
 
-![Ecosystem](https://github.com/open-gluck/.github/assets/66381046/065316bd-acb7-4dce-bd2f-5b11cadfa1c9)
+![Ecosystem](https://github.com/open-gluck/.github/assets/66381046/4250b218-016d-4191-8613-6f37356a05b1)
 
 To run OpenGlück, you need a server, and apps to upload and download data. We also suggest you install [our own app](https://github.com/open-gluck/opengluck-swift-app), that is compatible with iPhone, watchOS, macOS and tvOS.
 
