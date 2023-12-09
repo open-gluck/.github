@@ -89,6 +89,10 @@ Below is a list of supported software.
 
 # FAQ
 
+## What are the motivations behind this project?
+
+You can find here the [OpenGlück Manifesto](https://medium.com/@crsohr/an-open-letter-to-helping-people-with-diabetes-openglück-manifesto-a09326d118a6).
+
 ## Any creative use of OpenGlück?
 
 Sure, what about these ideas:
