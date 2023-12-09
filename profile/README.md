@@ -85,7 +85,7 @@ Below is a list of supported software.
 
 - ⭐️ [our own OpenGlück app](https://github.com/open-gluck/opengluck-swift-app) to provide readings, graphs, widgets and complications (supports iOS 17, watchOS 10, macOS Sonoma, or above);
 
-- ⭐️ [xDrip4iOS](https://xdrip4ios.readthedocs.io/en/latest/) is supported with the following pull request that you need to apply (we've reached out to the project's team to have it merged).
+- ⭐️ [xDrip4iOS](https://xdrip4ios.readthedocs.io/en/latest/) is supported in [PR479](https://github.com/JohanDegraeve/xdripswift/pull/479).
 
 # FAQ
 
