@@ -1,8 +1,8 @@
 # OpenGlück
 
-The OpenGlück project is a collection of free software to help diabetes users get better feedback, regardless of the brand of the hardware they're using. 
+The OpenGlück project is a collection of free software to help diabetics get a better understanding of their diabetes, regardless of the brand of the hardware they're using. 
 
-It comes with an app for iPhone, Apple Watch, macOS (and more) that's fully packed with widgets and complications.
+It comes with its own app for iPhone, Apple Watch, macOS (and more) that's fully packed with widgets and complications, and any app can add support.
 
 ![Ecosystem](ecosystem.png)
 
