@@ -4,7 +4,7 @@ The OpenGlück project is a collection of free software to help diabetics get a 
 
 It comes with its own app for iPhone, Apple Watch, macOS (and more) that's fully packed with widgets and complications, and any app can add support.
 
-![Ecosystem](ecosystem.png)
+![Ecosystem](https://github.com/open-gluck/.github/assets/66381046/065316bd-acb7-4dce-bd2f-5b11cadfa1c9)
 
 To run OpenGlück, you need a server, and apps to upload and download data. We also suggest you install [our own app](https://github.com/open-gluck/opengluck-swift-app), that is compatible with iPhone, watchOS, macOS and tvOS.
 
@@ -40,7 +40,8 @@ These screenshots showcase [our own app](https://github.com/open-gluck/opengluck
 
 All complications sizes for watchOS 10 are supported.
 
-![watchOS](watch.png)
+![Watch](https://github.com/open-gluck/.github/assets/66381046/e34b045e-ada8-4dbe-846e-214af536d218)
+
 
 If you have a Series 9 or Ultra 2, you can use the *double tap* gesture. I have mine configured so that a *single double tap* shows the graph, and a *second double tap* opens the app. Very handy!
 
@@ -50,19 +51,19 @@ If you have a Series 9 or Ultra 2, you can use the *double tap* gesture. I have 
 
 The [OpenGlück app](https://github.com/open-gluck/opengluck-swift-app) supports all widgets sizes of iOS 17, including Standby Mode — if you are lucky and have an iPhone with Always-On, this makes a great nighttime BG reader.
 
-![iPhone](iphone.png)
+![image](https://github.com/open-gluck/.github/assets/66381046/73e1537e-7221-4c23-bd5f-cee1c5373ba9)
 
 # macOS
 
 The [native Mac app](https://github.com/open-gluck/opengluck-swift-app) means you don't have to reach out for your phone to know your blood glucose.
 
-![macOS](mac.png)
+<img width="852" alt="image" src="https://github.com/open-gluck/.github/assets/66381046/bab7fc6e-e45a-4797-ba19-52e1a26d22ee">
 
 # tvOS
 
 Well, tvOS started more as a joke than anything else. Please let me know if you have serious uses for it, though, I'd be more than happy to read about it.
 
-![tvOS](tv.png)
+![tvOS](https://github.com/open-gluck/.github/assets/66381046/68d16dbb-9a45-4ff8-be7b-51863af47689)
 
 # Pre-Requisites
 
@@ -101,7 +102,7 @@ The blood glucose graph shows historic data as a straight line. The most recent 
 
 The last historic data is shown with a trend arrow, that has the same slope as the graph.
 
-![Legend](legend.png)
+![Legend](https://github.com/open-gluck/.github/assets/66381046/96d0362f-b7ad-4fba-9e89-536e6764d3b2)
 
 Current blood glucose data is shown with a a colored background, that instantly shows if you're in a low/high. You can configure the thresholds in the settings.
 
@@ -126,7 +127,7 @@ To enable the Calendar Trick:
 1. On your watch, update any of your circular complications to a **Contact complication**, and choose the contact you created in step 1.
 1. You're all set! OpenGlück will update the contact, and Apple Watch will automatically sync the complication to the contact's current photo.
 
-![Calendar Trick](calendar-trick.png)
+![Calendar Trick](https://github.com/open-gluck/.github/assets/66381046/7ffecde8-e23b-4131-b293-bcefd39a77bc)
 
 *IMPORTANT: the update process may fail, or stop, for whatever reasons, and there could be issues with the iCloud sync internally used by Apple's Contacts app. While most of the time, Calendar Trick provides for near real-time updates, be advised the there are times it might lag behind, and show you an outdated value — you might only get the latest available result, which could lag several minutes, hours, or even days. The app has a counter-measure to show the value in gray after some times passes, but unfortunately that is no fail-proof. (Some other apps use a similar trick known as the *Calendar trick*, with similar caveats.)*
 
