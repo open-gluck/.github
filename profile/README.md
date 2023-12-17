@@ -119,22 +119,22 @@ Apple has a restriction on the number of times widgets can be refreshed every da
 
 Unfortunately, this restriction is not developer- or user-configurable, which means we don't have a way to raise this limit higher to suit our needs — and neither do you have a way. 
 
-But we do have something in our sleeve: the **Calendar Trick**. If you're not enrolled in the developer program, you can use this trick to update the photo or a contact with your blood glucose. See the next question for details.
+But we do have something in our sleeve: the **Contact Trick**. If you're not enrolled in the developer program, you can use this trick to update the photo or a contact with your blood glucose. See the next question for details.
 
-### The Calendar Trick
+### The Contact Trick
 
-You can enable the **Calendar Trick** in the **More** tab. When enabled, the app will search for a contact and update its photo with the latest known blood glucose.
+You can enable the **Contact Trick** in the **More** tab. When enabled, the app will search for a contact and update its photo with the latest known blood glucose.
 
-To enable the Calendar Trick:
+To enable the Contact Trick:
 
 1. Create a contact, set its email address to `bg@calendar-trick.opengluck.com`
-1. Launch the OpenGlück app, in the **More** tab, click **Enable Calendar Trick**.
+1. Launch the OpenGlück app, in the **More** tab, click **Enable Contact Trick**.
 1. On your watch, update any of your circular complications to a **Contact complication**, and choose the contact you created in step 1.
 1. You're all set! OpenGlück will update the contact, and Apple Watch will automatically sync the complication to the contact's current photo.
 
-![Calendar Trick](https://github.com/open-gluck/.github/assets/66381046/7ffecde8-e23b-4131-b293-bcefd39a77bc)
+![Contact Trick](https://github.com/open-gluck/.github/assets/66381046/7ffecde8-e23b-4131-b293-bcefd39a77bc)
 
-*IMPORTANT: the update process may fail, or stop, for whatever reasons, and there could be issues with the iCloud sync internally used by Apple's Contacts app. While most of the time, Calendar Trick provides for near real-time updates, be advised the there are times it might lag behind, and show you an outdated value — you might only get the latest available result, which could lag several minutes, hours, or even days. The app has a counter-measure to show the value in gray after some times passes, but unfortunately that is no fail-proof. (Some other apps use a similar trick known as the *Calendar trick*, with similar caveats.)*
+*IMPORTANT: the update process may fail, or stop, for whatever reasons, and there could be issues with the iCloud sync internally used by Apple's Contacts app. While most of the time, Contact Trick provides for near real-time updates, be advised the there are times it might lag behind, and show you an outdated value — you might only get the latest available result, which could lag several minutes, hours, or even days. The app has a counter-measure to show the value in gray after some times passes, but unfortunately that is no fail-proof. (Some other apps use a similar trick known as the *Calendar trick*, with similar caveats.)*
 
 ### Disable WidgetKit Limits (Developers Only)
 
