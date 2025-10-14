@@ -17,6 +17,7 @@ Here is a [YouTube video showing how OpenGlück looks](https://www.youtube.com/w
 ## Features
 
 - **modern apps for all platforms**: iOS, watchOS, iPadOS, macOS, tvOS — no more more hunting for your phone to know your blood glucose, a quick glance and you know;
+- support for Android Automotive OS;
 - **supports all widgets sizes and complications layouts** — including StandBy mode;
 - if you care for someone else, **follower mode** is supported right out of the box,
 - last, but maybe not least, **we love to have a nice UI/UX** for user-facing projects. The server? not something you'll see everyday. The app? Make it look right. Our motto: *Your diabetes might not be pretty every day, but if your app is. At least that's something.*
